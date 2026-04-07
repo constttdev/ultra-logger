@@ -8,14 +8,14 @@
   "types": "dist/index.d.ts",
   "repository": {
     "url": "git+https://github.com/constttdev/zero-log.git",
-    "type": "git",
-    "clean:win": "rmdir /s dist",
-    "clean:linux": "rm -rf dist",
-    "clean:macos": "rm -rf dist"
+    "type": "git"
   },
   "scripts": {
     "start": "npx tsx src/index.ts",
-    "build": "tsup src/index.ts --format esm,cjs --dts"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "clean:win": "rmdir /s dist",
+    "clean:linux": "rm -rf dist",
+    "clean:macos": "rm -rf dist"
   },
   "keywords": [
     "logging",
