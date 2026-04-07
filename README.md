@@ -11,7 +11,7 @@ Supports structured logging, correlation IDs, level control, pretty printing, er
 
 Test **ground-log** directly in your browser using StackBlitz:
 
-[Open in StackBlitz](https://stackblitz.com/edit/node-u7xssdzz?file=index.js)
+[Open in StackBlitz](https://stackblitz.com/edit/stackblitz-starters-ntdp4n?file=index.js)
 
 ---
 
