@@ -1,5 +1,5 @@
 {
-  "name": "zero-log",
+  "name": "ground-log",
   "version": "1.0.0",
   "description": "A advanced logger",
   "type": "module",
@@ -7,7 +7,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
-    "url": "git+https://github.com/constttdev/zero-log.git",
+    "url": "git+https://github.com/constttdev/ground-log.git",
     "type": "git"
   },
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "keywords": [
     "logging",
-    "zero-log",
+    "ground-log",
     "advanced",
     "advanced-loggin",
     "logger"

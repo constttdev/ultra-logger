@@ -1,4 +1,4 @@
-# Zero Log
+# Ground Log
 
 [![GNU License](https://img.shields.io/badge/license-GNU%20GPLv3-green?style=plastic)](https://choosealicense.com/licenses/gpl-3.0/)
 
@@ -9,7 +9,7 @@ Supports structured logging, correlation IDs, level control, pretty printing, er
 
 ## Try it Online
 
-Test **zero-log** directly in your browser using StackBlitz:
+Test **ground-log** directly in your browser using StackBlitz:
 
 [Open in StackBlitz](https://stackblitz.com/edit/node-u7xssdzz?file=index.js)
 
@@ -20,7 +20,7 @@ Test **zero-log** directly in your browser using StackBlitz:
 Install via npm:
 
 ```bash
-npm install zero-log
+npm install ground-log
 ```
 
 ---
@@ -51,7 +51,7 @@ npm install zero-log
 ### Create a logger
 
 ```javascript
-import { createLogger } from "zero-log";
+import { createLogger } from "ground-log";
 
 const logger = createLogger({
   logPrefix: true,
